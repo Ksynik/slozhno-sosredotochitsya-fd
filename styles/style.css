@@ -2,7 +2,7 @@
 
 .page {
   background-color: #000028;
-  background-image: url("/images/cover-image-dark.png");
+  background-image: var(--background-image);
   background-attachment: fixed;
   background-size: cover;
   font-family: "IBM Plex Mono", monospace;
@@ -153,7 +153,7 @@
 	line-height: 23.4px;
 	padding-inline-start: 10px;
 	padding-inline-end: 10px;
-  background-color: #000028;
+  background-color: var(--bg-color);
   padding-top: 20px;
   display: grid;
   gap: 50px;
@@ -192,6 +192,18 @@
 .link {
   padding: 0;
   margin: 0;
+  text-decoration: none;
+  color: var(--article-color);
+  font-family: var(--font), monospace;
+  text-shadow: 2px 2px 0 var(--accent-color);
+}
+.link:hover {
+  text-decoration: underline; 
+  text-shadow: none;
+}
+.link:focus {
+  border: 1px solid var(--article-color);
+  padding: 0 3px 0 3px;
 }
 .section__gallery {
   display: grid;
