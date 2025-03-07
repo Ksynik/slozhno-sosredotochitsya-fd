@@ -13,4 +13,5 @@
   --accent-color: #FF0070;
   --article-color: #F1B2CE;
   --bg-color: #000028;
+  --title-color: var(--accent-color);
 }
