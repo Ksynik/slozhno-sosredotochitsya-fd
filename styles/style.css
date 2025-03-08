@@ -196,7 +196,6 @@
 }
 .card-content__list {
   display: grid;
-  gap: 20px;
 }
 .link {
   padding: 0;
@@ -379,9 +378,6 @@ img {
       gap: 10px;
   }
   .section__cards-content {
-      gap: 20px;
-  }
-  .content__card-list {
       gap: 20px;
   }
   .section__what {
