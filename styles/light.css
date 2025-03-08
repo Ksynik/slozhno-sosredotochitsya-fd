@@ -6,25 +6,25 @@
 
 :root.theme-light {
   /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
-  --text : #353430; 
+  Так стили написанные ниже будут иметь больший вес,
+  чем стили в медиазапросе предпочтений пользователя
+*/
+  --text: #353430;
   --decor-text-color: var(--text);
-  --focus: #FFC2E6;
+  --focus: #ffc2e6;
   --font: "IBM Plex mono", monospace;
   --font-size: 18px;
   --background-image: url(../images/cover-image-light.png);
   --header-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --accent-color: #FF8DCB;
+  --accent-color: #ff8dcb;
   --article-color: #353430;
-  --bg-color: #F5F5F5;
+  --bg-color: #f5f5f5;
   --title-color: var(--text);
 }
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
-  --bg-image: url("../images/cover-image-light.png"); 
+  --bg-image: url("../images/cover-image-light.png");
 }
 .theme-light .decorated-zone::before {
   border-top: 1px solid var(--article-color);
@@ -35,39 +35,39 @@
   border-bottom: 1px solid var(--article-color);
 }
 @media (prefers-color-scheme: light) {
-	:root {
-	  --text : var(--article-color); 
+  :root {
+    --text: var(--article-color);
     --decor-text-color: var(--text);
-    --focus: #FFC2E6;
+    --focus: #ffc2e6;
     --font: "IBM Plex mono", monospace;
     --font-size: 18px;
     --background-image: url(../images/cover-image-light.png);
     --header-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-    --accent-color: #FF8DCB;
+    --accent-color: #ff8dcb;
     --article-color: #353430;
-    --bg-color: #F5F5F5;
-	}
-}@media (prefers-color-scheme: light) {
-	:root.theme-dark {
-    --text : #000028; 
+    --bg-color: #f5f5f5;
+  }
+}
+@media (prefers-color-scheme: light) {
+  :root.theme-dark {
+    --text: #000028;
     --decor-text-color: var(--text);
-    --focus: #DB00FF;
+    --focus: #db00ff;
     --font: "IBM Plex mono", monospace;
     --font-size: 18px;
     --background-image: url(../images/cover-image-dark.png);
     --header-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-    --accent-color: #FF0070;
-    --article-color: #F1B2CE;
+    --accent-color: #ff0070;
+    --article-color: #f1b2ce;
     --bg-color: #000028;
-	} 
-
+  }
 }
 @media (prefers-color-scheme: light) {
-	.theme-auto .rec-indicator {
-		visibility: hidden;
-	}
+  .theme-auto .rec-indicator {
+    visibility: hidden;
+  }
 }
 
 .theme-light .rec-indicator {
-	visibility: hidden;
+  visibility: hidden;
 }
