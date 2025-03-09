@@ -113,7 +113,7 @@
   pointer-events: none;
 }
 .header__title {
-  font-size: var(--header-size);
+  font-size: var(--size);
   justify-content: center;
   padding: 55px 0 55px 0;
   margin: 0;
