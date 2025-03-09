@@ -88,7 +88,7 @@
 }
 .header__theme-menu-button {
   font-size: var(--font-size);
-  color: var(--accent-color);
+  color: var(--color);
   border: none;
   width: 70px;
   height: 26px;
@@ -109,7 +109,7 @@
 }
 .header__theme-menu-button_active {
   background-color: transparent;
-  color: var(--accent-color);
+  color: var(--color);
 }
 .header__title {
   font-size: var(--header-size);

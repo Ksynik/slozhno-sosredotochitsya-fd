@@ -20,17 +20,17 @@
   --article-color: #f1b2ce;
   --bg-color: #000028;
   --title-color: var(--accent-color);
-  --color: var(var(--accent-color));
+  --color: var(--accent-color);
 }
 
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
   background-image: var(--background-image);
-  
 }
 @media (prefers-color-scheme: dark) {
   .page {
       background-image: var(--background-image);
-      background-color: var(--bg-color);  
+      background-color: var(--bg-color);
   }
 }
+

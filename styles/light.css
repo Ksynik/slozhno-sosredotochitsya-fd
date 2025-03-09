@@ -28,14 +28,6 @@
   /* Вам также нужно будет написать ряд подобных селекторов */
   --background-image: url(../images/cover-image-light.png);
 }
-.theme-light .decorated-zone::before {
-  border-top: 1px solid var(--article-color);
-  border-right: 1px solid var(--article-color);
-}
-.theme-light .decorated-zone::after {
-  border-left: 1px solid var(--article-color);
-  border-bottom: 1px solid var(--article-color);
-}
 @media (prefers-color-scheme: light) {
   :root {
       --text: var(--article-color);
@@ -49,12 +41,16 @@
       --article-color: #353430;
       --bg-color: #fff1f7;
       --title-color: var(--text);
+      --color: #32312d;
       --footer: #ff0070;
   }
 }
 @media (prefers-color-scheme: light) {
   .rec-indicator {
       visibility: hidden;
+  }
+  .footer__title {
+      text-shadow: 3px 3px 0 var(--footer);
   }
   .decorated-zone::before {
       border-top: 1px solid var(--article-color);
@@ -64,15 +60,21 @@
       border-left: 1px solid var(--article-color);
       border-bottom: 1px solid var(--article-color);
   }
-  .header__theme-menu-button {
-      color: var(--text);
-  }
 }
 .theme-light .rec-indicator {
   visibility: hidden;
 }
 .theme-light .footer__title {
-  text-shadow: 3px 3px 0 var(--footer);
+  text-shadow: 3px 3px 0 var(--article-color);
 }
+.theme-light .decorated-zone::before {
+  border-top: 1px solid var(--text);
+  border-right: 1px solid var(--article-color);
+}
+.theme-light .decorated-zone::after {
+  border-left: 1px solid var(--article-color);
+  border-bottom: 1px solid var(--article-color);
+}
+
 
 
