@@ -25,6 +25,7 @@
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
+  --background-image: url(../images/cover-image-light.png);
 }
 .theme-light .decorated-zone::before {
   border-top: 1px solid var(--article-color);
