@@ -31,6 +31,6 @@
 @media (prefers-color-scheme: dark) {
   .page {
       background-image: var(--background-image);
-      background-color: var(--bg-color);
+      background-color: var(--bg-color);  
   }
 }
