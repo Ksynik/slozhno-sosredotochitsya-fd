@@ -15,12 +15,15 @@
   --font: "IBM Plex mono", monospace;
   --font-size: 18px;
   --background-image: url(../images/cover-image-dark.png);
-  --header-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --fonts-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --accent-color: #ff0070;
+  --border-color: rgba(255, 0, 112, 0.4);
   --article-color: #f1b2ce;
   --bg-color: #000028;
   --title-color: var(--accent-color);
   --color: var(--accent-color);
+  --footer: #ff0070;
 }
 
 .theme-dark .page {
