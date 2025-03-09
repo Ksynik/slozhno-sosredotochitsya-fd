@@ -25,10 +25,12 @@
 
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
-  --background-image: url(../images/cover-image-dark.png);
+  background-image: var(--background-image);
+  
 }
 @media (prefers-color-scheme: dark) {
   .page {
-      --background-image: url(../images/cover-image-dark.png);
+      background-image: var(--background-image);
+      background-color: var(--bg-color);
   }
 }

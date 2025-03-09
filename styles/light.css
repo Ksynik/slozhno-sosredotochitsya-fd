@@ -18,7 +18,7 @@
   --header-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --accent-color: #ff8dcb;
   --article-color: #353430;
-  --bg-color: #f5f5f5;
+  --bg-color: #fff1f7;
   --title-color: var(--text);
   --color: #32312d;
 }
@@ -46,7 +46,7 @@
       --header-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
       --accent-color: #ff8dcb;
       --article-color: #353430;
-      --bg-color: #f5f5f5;
+      --bg-color: #fff1f7;
       --title-color: var(--text);
   }
 }
@@ -62,7 +62,11 @@
       border-left: 1px solid var(--article-color);
       border-bottom: 1px solid var(--article-color);
   }
+  .header__theme-menu-button {
+      color: var(--text);
+  }
 }
 .theme-light .rec-indicator {
   visibility: hidden;
 }
+
