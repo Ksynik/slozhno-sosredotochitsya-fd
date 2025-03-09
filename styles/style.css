@@ -242,7 +242,7 @@ img {
 .footer__title {
   font-size: 116px;
   margin: 0;
-  text-shadow: 2px 2px 0 var(--accent-color);
+  text-shadow: 3px 3px 0 var(--accent-color);
 }
 
 @media (width >= 768px) {

@@ -65,6 +65,9 @@
   .header__theme-menu-button {
       color: var(--text);
   }
+  .header__title {
+    
+  }
 }
 .theme-light .rec-indicator {
   visibility: hidden;
