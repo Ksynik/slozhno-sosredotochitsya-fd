@@ -19,6 +19,10 @@
   --title-color: var(--accent-color);
   --color: var(--accent-color);
   --footer: #ff0070;
+  --rec-color: var(--accent-color);
+  --decor-color: var(--accent-color);
+  --link-color: #f1b2ce;
 }
+
 
 

@@ -24,6 +24,8 @@
   --title-color: var(--accent-color);
   --color: var(--accent-color);
   --footer: #ff0070;
+  --decor-color: var(--accent-color);
+  --link-color: #f1b2ce;
 }
 
 .theme-dark .page {
@@ -36,4 +38,21 @@
       background-color: var(--bg-color);
   }
 }
-
+.theme-dark .decorated-zone::before {
+  border-top: 1px solid var(--decor-color);
+  border-right: 1px solid var(--decor-color);
+}
+.theme-dark .decorated-zone::after {
+  border-left: 1px solid var(--decor-color);
+  border-bottom: 1px solid var(--decor-color);
+}
+.theme-dark .rec-indicator {
+  visibility: visible;
+}
+.theme-dark .link:hover {
+  border-bottom: 1px solid var(--link-color);
+}
+.theme-dark .link:focus-visible {
+  background-color: transparent;
+  outline: 1px solid var(--link-color);
+}
